@@ -1,11 +1,13 @@
 <?php
 
-return \StubsGenerator\Finder::create()
+use StubsGenerator\Finder;
+
+return Finder::create()
     ->in( array(
         'source/woocommerce-product-addons',
     ) )
     ->append(
-        \StubsGenerator\Finder::create()
+        Finder::create()
             ->in(['source/woocommerce-product-addons'])
             ->files()
             ->depth('< 1')
