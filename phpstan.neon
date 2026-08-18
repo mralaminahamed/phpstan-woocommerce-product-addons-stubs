@@ -1,8 +1,8 @@
 parameters:
     paths:
-        - woocommerce-product-addons-stubs.php
+        - woocommerce-product-addons-stubs.stub
     scanFiles:
-        - woocommerce-product-addons-constants-stubs.php
+        - woocommerce-product-addons-constants-stubs.stub
     bootstrapFiles:
         - configs/bootstrap.php
     level: 5

@@ -8,8 +8,8 @@ ROOT_DIR="$(dirname "$SCRIPT_DIR")"
 
 HEADER=$'/**\n * Generated stub declarations for WooCommerce Product Add-Ons.\n * @see https://woocommerce.com/products/product-add-ons/\n * @see https://github.com/mralaminahamed/woocommerce-product-addons-stubs\n */'
 
-FILE="$ROOT_DIR/woocommerce-product-addons-stubs.php"
-FILE_CONSTANTS="$ROOT_DIR/woocommerce-product-addons-constants-stubs.php"
+FILE="$ROOT_DIR/woocommerce-product-addons-stubs.stub"
+FILE_CONSTANTS="$ROOT_DIR/woocommerce-product-addons-constants-stubs.stub"
 GENERATOR_BIN="$ROOT_DIR/vendor/bin/generate-stubs"
 FINDER_FILE="$ROOT_DIR/configs/finder.php"
 

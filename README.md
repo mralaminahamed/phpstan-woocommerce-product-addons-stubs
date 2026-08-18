@@ -36,8 +36,8 @@ composer require --dev mralaminahamed/woocommerce-product-addons-stubs:^1.0
 ### Manual Installation
 
 Download the stub files directly:
-- [woocommerce-product-addons-stubs.php](https://raw.githubusercontent.com/mralaminahamed/woocommerce-product-addons-stubs/main/woocommerce-product-addons-stubs.php)
-- [woocommerce-product-addons-constants-stubs.php](https://raw.githubusercontent.com/mralaminahamed/woocommerce-product-addons-stubs/main/woocommerce-product-addons-constants-stubs.php)
+- [woocommerce-product-addons-stubs.stub](https://raw.githubusercontent.com/mralaminahamed/woocommerce-product-addons-stubs/main/woocommerce-product-addons-stubs.stub)
+- [woocommerce-product-addons-constants-stubs.stub](https://raw.githubusercontent.com/mralaminahamed/woocommerce-product-addons-stubs/main/woocommerce-product-addons-constants-stubs.stub)
 
 ## 🔧 Basic Configuration
 
@@ -71,8 +71,8 @@ phpstan-woocommerce-product-addons-stubs/
 ├── docs/                                               # Detailed documentation
 │   ├── usage.md                                        # Usage guide
 │   └── contributing.md                                 # Contribution guidelines
-├── woocommerce-product-addons-constants-stubs.php      # Constants stub file
-├── woocommerce-product-addons-stubs.php                # Main stubs file with classes and functions
+├── woocommerce-product-addons-constants-stubs.stub      # Constants stub file
+├── woocommerce-product-addons-stubs.stub                # Main stubs file with classes and functions
 ├── source/                                             # Source for generating stubs
 └── tests/                                              # Test files
     ├── bootstrap.php                                   # Test bootstrap
